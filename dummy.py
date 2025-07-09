@@ -14,8 +14,8 @@
 
 
 # # below code is to check the exception config
-import logging
-from src import logger
+from src.logger import logging  #since in logger.py file we have already imported logging therefore here we are calling logging from there.we could also directly import logging as we did in above code
+# from src import logger
 from src import exception
 import sys
 log = logging.getLogger(__name__)
