@@ -64,7 +64,7 @@ class DataTransformation:
             preprocessing_object= self.get_data_transformer_object()
 
             target_column= "math_score"
-            num_column= ["writing_score","reading_score"]
+            #num_column= ["writing_score","reading_score"]
 
             #here we are basically doing x_train,x_test,y_train,y_test
             input_feature_train_df= train_df.drop(columns = [target_column],axis=1) #x_train
