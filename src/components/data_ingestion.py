@@ -1,4 +1,5 @@
-#main purpose of data ingestion is to load data from various sources.
+#main purpose of data ingestion is to load data from various sources.And this is the entry point of data pipeline because it has __main__ in the end.
+
 
 import os
 import sys
